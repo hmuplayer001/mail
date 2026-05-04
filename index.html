@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gửi email</title>
+<style>
+body{font-family:system-ui,sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;background:#f5f0e8;text-align:center;padding:20px}
+.box{background:white;padding:40px 30px;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,.08);max-width:360px}
+h1{margin:0 0 12px;font-size:20px}
+p{color:#666;font-size:14px;margin:0 0 24px}
+a.btn{display:inline-block;background:#1a73e8;color:white;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:600}
+small{display:block;margin-top:20px;color:#999;font-size:12px;word-break:break-all}
+</style>
+</head>
+<body>
+<div class="box">
+<h1>📧 Gửi email</h1>
+<p>Đang mở ứng dụng Email...</p>
+<a class="btn" href="mailto:cdts.pshn.tailieu@gmail.com">Mở app Email</a>
+<small>cdts.pshn.tailieu@gmail.com</small>
+</div>
+<script>
+setTimeout(function(){
+  window.location.href = "mailto:cdts.pshn.tailieu@gmail.com";
+}, 500);
+</script>
+</body>
+</html>
